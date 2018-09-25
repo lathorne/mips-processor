@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 03 14:12:01 2018
+# Process ID: 8796
+# Current directory: J:/Documents/323_lab9/323_lab9.runs/synth_1
+# Command line: vivado.exe -log mips_final.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_final.tcl
+# Log file: J:/Documents/323_lab9/323_lab9.runs/synth_1/mips_final.vds
+# Journal file: J:/Documents/323_lab9/323_lab9.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mips_final.tcl -notrace

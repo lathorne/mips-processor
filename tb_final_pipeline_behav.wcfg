@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_generic_pipeline_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_generic_pipeline" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="484000001fs"></ZoomEndTime>
+      <Cursor1Time time="70000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="123" />
+   <wvobject fp_name="/tb_generic_pipeline/msc/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/dWriteData" type="array">
+      <obj_property name="ElementShortName">dWriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dWriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/WriteBackData" type="array">
+      <obj_property name="ElementShortName">WriteBackData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteBackData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/halt_pc" type="logic">
+      <obj_property name="ElementShortName">halt_pc</obj_property>
+      <obj_property name="ObjectShortName">halt_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/insert_ex_noop" type="logic">
+      <obj_property name="ElementShortName">insert_ex_noop</obj_property>
+      <obj_property name="ObjectShortName">insert_ex_noop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/jump" type="array">
+      <obj_property name="ElementShortName">jump[1:0]</obj_property>
+      <obj_property name="ObjectShortName">jump[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/jump_ID" type="array">
+      <obj_property name="ElementShortName">jump_ID[1:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_ID[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/jumpAddress_ID" type="array">
+      <obj_property name="ElementShortName">jumpAddress_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jumpAddress_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/Data1" type="array">
+      <obj_property name="ElementShortName">Data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/Data2" type="array">
+      <obj_property name="ElementShortName">Data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/RF" type="array">
+      <obj_property name="ElementShortName">RF[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/PCSrc_MEM" type="logic">
+      <obj_property name="ElementShortName">PCSrc_MEM</obj_property>
+      <obj_property name="ObjectShortName">PCSrc_MEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/data_output_MEM" type="array">
+      <obj_property name="ElementShortName">data_output_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_output_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemtoReg_MEM" type="array">
+      <obj_property name="ElementShortName">MemtoReg_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ALUOut_MEM" type="array">
+      <obj_property name="ElementShortName">ALUOut_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOut_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/RegWrite_MEM" type="logic">
+      <obj_property name="ElementShortName">RegWrite_MEM</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_MEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/WriteReg_MEM" type="array">
+      <obj_property name="ElementShortName">WriteReg_MEM[5:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg_MEM[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ID_Rd" type="array">
+      <obj_property name="ElementShortName">ID_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ID_Rs" type="array">
+      <obj_property name="ElementShortName">ID_Rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ID_Rt" type="array">
+      <obj_property name="ElementShortName">ID_Rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/EX_Rd" type="array">
+      <obj_property name="ElementShortName">EX_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/EX_Rs" type="array">
+      <obj_property name="ElementShortName">EX_Rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_Rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/EX_Rt" type="array">
+      <obj_property name="ElementShortName">EX_Rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_Rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MEM_Rd" type="array">
+      <obj_property name="ElementShortName">MEM_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MEM_Rs" type="array">
+      <obj_property name="ElementShortName">MEM_Rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_Rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MEM_Rt" type="array">
+      <obj_property name="ElementShortName">MEM_Rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_Rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/forwardA" type="array">
+      <obj_property name="ElementShortName">forwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/forwardB" type="array">
+      <obj_property name="ElementShortName">forwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/forwardC" type="logic">
+      <obj_property name="ElementShortName">forwardC</obj_property>
+      <obj_property name="ObjectShortName">forwardC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/instruction_reg_IF" type="array">
+      <obj_property name="ElementShortName">instruction_reg_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_reg_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/pc_reg_IF" type="array">
+      <obj_property name="ElementShortName">pc_reg_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_reg_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/pc_reg" type="array">
+      <obj_property name="ElementShortName">pc_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/pc_addr" type="array">
+      <obj_property name="ElementShortName">pc_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/branch_target_EX" type="array">
+      <obj_property name="ElementShortName">branch_target_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_target_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/i_mem" type="array">
+      <obj_property name="ElementShortName">i_mem[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_mem[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/d_mem" type="array">
+      <obj_property name="ElementShortName">d_mem[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">d_mem[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/extend" type="array">
+      <obj_property name="ElementShortName">extend[31:0]</obj_property>
+      <obj_property name="ObjectShortName">extend[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/regDst" type="logic">
+      <obj_property name="ElementShortName">regDst</obj_property>
+      <obj_property name="ObjectShortName">regDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ALUSrc_ID" type="logic">
+      <obj_property name="ElementShortName">ALUSrc_ID</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/Branch_ID" type="logic">
+      <obj_property name="ElementShortName">Branch_ID</obj_property>
+      <obj_property name="ObjectShortName">Branch_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/BranchBNE_ID" type="logic">
+      <obj_property name="ElementShortName">BranchBNE_ID</obj_property>
+      <obj_property name="ObjectShortName">BranchBNE_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemWrite_ID" type="logic">
+      <obj_property name="ElementShortName">MemWrite_ID</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemRead_ID" type="logic">
+      <obj_property name="ElementShortName">MemRead_ID</obj_property>
+      <obj_property name="ObjectShortName">MemRead_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/RegWrite_ID" type="logic">
+      <obj_property name="ElementShortName">RegWrite_ID</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemtoReg_ID" type="logic">
+      <obj_property name="ElementShortName">MemtoReg_ID</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/instructionID" type="array">
+      <obj_property name="ElementShortName">instructionID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/instructionEX" type="array">
+      <obj_property name="ElementShortName">instructionEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/instructionMEM" type="array">
+      <obj_property name="ElementShortName">instructionMEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionMEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ALUCtrl_ID" type="array">
+      <obj_property name="ElementShortName">ALUCtrl_ID[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUCtrl_ID[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/pc_reg_ID" type="array">
+      <obj_property name="ElementShortName">pc_reg_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_reg_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/extend_ID" type="array">
+      <obj_property name="ElementShortName">extend_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">extend_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/WriteReg_ID" type="array">
+      <obj_property name="ElementShortName">WriteReg_ID[5:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg_ID[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/Read1" type="array">
+      <obj_property name="ElementShortName">Read1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Read1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/Read2" type="array">
+      <obj_property name="ElementShortName">Read2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Read2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/WriteReg" type="array">
+      <obj_property name="ElementShortName">WriteReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ZeroExt" type="logic">
+      <obj_property name="ElementShortName">ZeroExt</obj_property>
+      <obj_property name="ObjectShortName">ZeroExt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/funct" type="array">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/arithmetic" type="array">
+      <obj_property name="ElementShortName">arithmetic[5:0]</obj_property>
+      <obj_property name="ObjectShortName">arithmetic[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/branchBNE" type="logic">
+      <obj_property name="ElementShortName">branchBNE</obj_property>
+      <obj_property name="ObjectShortName">branchBNE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ALUCtrl" type="array">
+      <obj_property name="ElementShortName">ALUCtrl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUCtrl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/pass1" type="array">
+      <obj_property name="ElementShortName">pass1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">pass1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/pass2" type="array">
+      <obj_property name="ElementShortName">pass2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">pass2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/regDstPass" type="logic">
+      <obj_property name="ElementShortName">regDstPass</obj_property>
+      <obj_property name="ObjectShortName">regDstPass</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/jumpAddress" type="array">
+      <obj_property name="ElementShortName">jumpAddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jumpAddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/thisIsNoop_ID" type="logic">
+      <obj_property name="ElementShortName">thisIsNoop_ID</obj_property>
+      <obj_property name="ObjectShortName">thisIsNoop_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/thisIsNoop_EX" type="logic">
+      <obj_property name="ElementShortName">thisIsNoop_EX</obj_property>
+      <obj_property name="ObjectShortName">thisIsNoop_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/thisIsNoop_MEM" type="logic">
+      <obj_property name="ElementShortName">thisIsNoop_MEM</obj_property>
+      <obj_property name="ObjectShortName">thisIsNoop_MEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/stall_Noop" type="logic">
+      <obj_property name="ElementShortName">stall_Noop</obj_property>
+      <obj_property name="ObjectShortName">stall_Noop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ALU_Zero" type="array">
+      <obj_property name="ElementShortName">ALU_Zero[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Zero[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/WriteReg_EX" type="array">
+      <obj_property name="ElementShortName">WriteReg_EX[5:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg_EX[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/Data2_EX" type="array">
+      <obj_property name="ElementShortName">Data2_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data2_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/Branch_EX" type="logic">
+      <obj_property name="ElementShortName">Branch_EX</obj_property>
+      <obj_property name="ObjectShortName">Branch_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/BranchBNE_EX" type="logic">
+      <obj_property name="ElementShortName">BranchBNE_EX</obj_property>
+      <obj_property name="ObjectShortName">BranchBNE_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemWrite_EX" type="logic">
+      <obj_property name="ElementShortName">MemWrite_EX</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemRead_EX" type="logic">
+      <obj_property name="ElementShortName">MemRead_EX</obj_property>
+      <obj_property name="ObjectShortName">MemRead_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/MemtoReg_EX" type="logic">
+      <obj_property name="ElementShortName">MemtoReg_EX</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/RegWrite_EX" type="logic">
+      <obj_property name="ElementShortName">RegWrite_EX</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ALUOut" type="array">
+      <obj_property name="ElementShortName">ALUOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ALU_EX" type="array">
+      <obj_property name="ElementShortName">ALU_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/signExtendPC" type="array">
+      <obj_property name="ElementShortName">signExtendPC[32:0]</obj_property>
+      <obj_property name="ObjectShortName">signExtendPC[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/jump_EX" type="array">
+      <obj_property name="ElementShortName">jump_EX[1:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_EX[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/jump_MEM" type="array">
+      <obj_property name="ElementShortName">jump_MEM[1:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_MEM[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/mem_storage" type="array">
+      <obj_property name="ElementShortName">mem_storage[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_storage[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/stallPipe" type="logic">
+      <obj_property name="ElementShortName">stallPipe</obj_property>
+      <obj_property name="ObjectShortName">stallPipe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/PCSrc_WB" type="logic">
+      <obj_property name="ElementShortName">PCSrc_WB</obj_property>
+      <obj_property name="ObjectShortName">PCSrc_WB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/addALU" type="array">
+      <obj_property name="ElementShortName">addALU[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addALU[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/subALU" type="array">
+      <obj_property name="ElementShortName">subALU[3:0]</obj_property>
+      <obj_property name="ObjectShortName">subALU[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/andALU" type="array">
+      <obj_property name="ElementShortName">andALU[3:0]</obj_property>
+      <obj_property name="ObjectShortName">andALU[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/orALU" type="array">
+      <obj_property name="ElementShortName">orALU[3:0]</obj_property>
+      <obj_property name="ObjectShortName">orALU[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/sltALU" type="array">
+      <obj_property name="ElementShortName">sltALU[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sltALU[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/norALU" type="array">
+      <obj_property name="ElementShortName">norALU[3:0]</obj_property>
+      <obj_property name="ObjectShortName">norALU[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/lwOP" type="array">
+      <obj_property name="ElementShortName">lwOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">lwOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/swOP" type="array">
+      <obj_property name="ElementShortName">swOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">swOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/beqOP" type="array">
+      <obj_property name="ElementShortName">beqOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">beqOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/bneOP" type="array">
+      <obj_property name="ElementShortName">bneOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">bneOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/addiOP" type="array">
+      <obj_property name="ElementShortName">addiOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addiOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/andiOP" type="array">
+      <obj_property name="ElementShortName">andiOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">andiOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/oriOP" type="array">
+      <obj_property name="ElementShortName">oriOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">oriOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/jumpOP" type="array">
+      <obj_property name="ElementShortName">jumpOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">jumpOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/jalOP" type="array">
+      <obj_property name="ElementShortName">jalOP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">jalOP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/ROP" type="array">
+      <obj_property name="ElementShortName">ROP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ROP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/addFUNCT" type="array">
+      <obj_property name="ElementShortName">addFUNCT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addFUNCT[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/subFUNCT" type="array">
+      <obj_property name="ElementShortName">subFUNCT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">subFUNCT[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/andFUNCT" type="array">
+      <obj_property name="ElementShortName">andFUNCT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">andFUNCT[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/orFUNCT" type="array">
+      <obj_property name="ElementShortName">orFUNCT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">orFUNCT[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/sltFUNCT" type="array">
+      <obj_property name="ElementShortName">sltFUNCT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sltFUNCT[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/norFUNCT" type="array">
+      <obj_property name="ElementShortName">norFUNCT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">norFUNCT[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_generic_pipeline/msc/jrFUNCT" type="array">
+      <obj_property name="ElementShortName">jrFUNCT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">jrFUNCT[5:0]</obj_property>
+   </wvobject>
+</wave_config>
